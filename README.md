@@ -1,62 +1,47 @@
-# Zadanie rekrutacyjne — Data Visualization (Frontend)
+# Zadanie rekrutacyjne — Data Visualization
 
-## Kontekst
-Dane w pliku `data.json` pochodzą z platformy **e-commerce** i zawierają informacje o zamówieniach, m.in.:
-- czas,
-- lokalizację (kraj, miasto, dane geograficzne),
-- kategorie produktów,
-- ilości,
-- ceny,
-- dodatkowe metadane (płatność, typ klienta, urządzenie, czas dostawy).
+Projekt wizualizacji danych e-commerce przy użyciu React, TypeScript i Highcharts.
 
-Twoim celem jest **zrozumienie danych**, wybranie **niektórych informacji** i przedstawienie ich w **czytelnej, sensownej formie wizualnej** (dataviz).
+## Technologie
 
+- **React**
+- **TypeScript**
+- **Vite**
+- **Highcharts**
 
-## Zadanie
-Przeanalizuj dane i:
-- zdecyduj, które pola są dla Ciebie istotne,
-- agreguj dane w sposób, który uznasz za sensowny,
+## Wymagania
 
-Przygotuj **maksymalnie 3** wykresy.
-- samodzielnie zdecyduj, **jakie wizualizacje** przygotujesz (na podstawie wybranych przez Ciebie danych),
-- nie narzucamy konkretnych metryk ani podziałów,
-- zależy nam na **selekcji najistotniejszych dla Ciebie informacji**, nie na pokazaniu wszystkiego.
-
-
-## Opis rozwiązania
-W pliku README dodaj opis, w którym wyjaśnisz:
-- jakie dane uznałeś/aś za kluczowe,
-- dlaczego wybrałeś/aś właśnie takie wizualizacje (typy wykresów).
-
-
-## Technologia i uruchomienie
-- interesuje nas **wyłącznie wersja desktopowa** (brak wymagań dot. mobile, nie dokładaj sobie niepotrzebnej pracy),
-- **nie narzucamy tech stacku** (technologia nie jest kryterium oceny):
-- framework: dowolny lub brak,
-- biblioteki: także dowolne. W naszej firmie skupiamy się głównie na Highcharts, ale nie wymagamy znajomości akurat tej biblioteki, więc jeśli chcesz użyć innej prostszej - gorąco do tego zachęcamy.
-
+- Node.js (wersja 18 lub nowsza)
+- npm lub yarn
 
 ## Uruchomienie projektu
-W pliku README opisz także wymagania (np. Node, Python, serwer lokalny) i kroki przydatne dla nas do uruchomienia Twojego projektu.
-Projekt powinien być **łatwy do uruchomienia lokalnie** bez dodatkowych wyjaśnień.
 
+1. Zainstaluj zależności:
 
-## Czas
-Nie oczekujemy kompletnego rozbudowanego produktu.
-Interesuje nas:
-- sposób myślenia,
-- decyzje projektowe,
-- umiejętność pracy na danych,
-- czytelność wizualna. Duży plus za fajny design.
-Nie liczy się ilość/wielkość projektu, tylko jakość połączona z prostotą i umiejętność wytłumaczenia podejścia.
+```bash
+npm install
+```
 
-Przewidujemy, że wykonanie zadania powinno zająć maksymalnie kilka godzin.
-Na rozwiazanie masz dokładnie 7 dni licząc od daty otrzymania tego zadania.
+2. Uruchom serwer deweloperski:
 
+```bash
+npm run dev
+```
 
-## Jak zacząć i wysłać rozwiązanie
-- wykonaj fork tego repozytorium na swoje konto GitHub (w nazwie repozytorium powinna zawierać się nazwa Twojego profilu GH lub imię i nazwisko - tak aby była unikatowa dla wszystkich kandydatów),
-- upewnij się, że wszystkie zmiany są wypchnięte do Twojego repozytorium na GitHubie,
-- wyślij link do swojego repozytorium zawierającego rozwiązanie na adres e-mail: rekrutacja@blacklabel.net
+3. Otwórz przeglądarkę pod adresem: `http://localhost:5173`
 
-Nie wysyłaj Pull Requesta do tego repozytorium - oceniany będzie wyłącznie kod w Twoim forku.
+## Struktura projektu
+
+```
+src/
+  ├── data/
+  │   └── data.json       # Dane zamówień e-commerce
+  ├── components/         # Komponenty wykresów
+  ├── App.tsx             # Główny komponent aplikacji
+  ├── App.css             # Style aplikacji
+  └── main.tsx            # Punkt wejścia
+```
+
+## Wizualizacje
+
+[Opis wizualizacji i wybranych metryk zostanie uzupełniony]
