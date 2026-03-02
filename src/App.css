@@ -1,0 +1,52 @@
+.app-container {
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin: 0 auto 40px;
+  max-width: calc(100% - 600px);
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0 0 15px 0;
+  color: #1a67b4;
+}
+
+.header-meta {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: 14px;
+  color: #000000;
+  margin-top: 15px;
+}
+
+.header-meta p {
+  margin: 0;
+}
+
+.charts-row {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.chart-wrapper {
+  flex: 1;
+}
+
+.chart-container {
+  margin-bottom: 40px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  background-color: white;
+}
